@@ -14,6 +14,7 @@ interface Project {
   client: string;
   description: string;
   src: string;
+  promoBanner?: string;
   gallery: string[];
   videos?: string[];
 }
@@ -87,6 +88,18 @@ export default async function ProjectPage({ params }: Props) {
           <p className="mt-10 text-lg opacity-60 max-w-2xl leading-relaxed">
             Every project starts with a question. For {project.client}, the question was how to visualize the invisible. We approached this by stripping away the non-essential, leaving only the raw emotion and structural integrity of the brand.
           </p>
+
+          {/* Promo Banner */}
+          {project.promoBanner && (
+            <div className="mt-16 relative w-full h-auto aspect-[16/9] md:aspect-[21/9] rounded-lg overflow-hidden border border-mist/10">
+              <Image 
+                src={project.promoBanner}
+                alt={`${project.title} Promo`}
+                fill
+                className="object-cover"
+              />
+            </div>
+          )}
         </div>
       </section>
 
