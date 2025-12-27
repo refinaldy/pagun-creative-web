@@ -12,7 +12,7 @@ export default function About() {
 
        <div className="flex flex-col md:flex-row gap-10 md:gap-20">
           {/* Left: Sticky Image Area */}
-          <div className="w-full md:w-1/2 h-[50vh] md:h-[80vh] relative sticky top-20">
+          <div className="w-full md:w-1/2 h-[50vh] md:h-[80vh] relative md:sticky top-20">
              <div className="w-full h-full relative overflow-hidden rounded-sm group">
                 <Image 
                   src="/pagun_creative_team.jpg"

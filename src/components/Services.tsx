@@ -61,13 +61,13 @@ export default function Services() {
              transition={{ duration: 0.5, delay: i * 0.1 }}
              className={`relative bg-mist/5 border border-mist/10 p-8 flex flex-col justify-between hover:bg-mist/10 transition-all duration-500 group min-h-[300px] overflow-hidden ${s.span}`}
            >
-              {/* Background Image on Hover */}
-              <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-20 transition-opacity duration-700 ease-in-out grayscale">
+              {/* Background Image on Hover (Visible on Mobile) */}
+              <div className="absolute inset-0 z-0 opacity-10 md:opacity-0 md:group-hover:opacity-20 transition-opacity duration-700 ease-in-out grayscale">
                  <Image 
                    src={s.image}
                    alt={s.title}
                    fill
-                   className="object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
+                   className="object-cover scale-100 md:scale-110 md:group-hover:scale-100 transition-transform duration-1000"
                  />
               </div>
 
@@ -78,7 +78,7 @@ export default function Services() {
 
               <div className="w-full flex justify-between items-start relative z-10">
                  <span className="text-xs font-mono opacity-50">/{s.id}</span>
-                 <div className="w-2 h-2 rounded-full bg-electric opacity-0 group-hover:opacity-100 transition-opacity shadow-[0_0_10px_#28d8d0]" />
+                 <div className="w-2 h-2 rounded-full bg-electric opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity shadow-[0_0_10px_#28d8d0]" />
               </div>
               
               <div className="relative z-10">

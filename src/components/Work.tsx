@@ -52,8 +52,8 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
           <p className="text-sm tracking-widest uppercase mt-2 text-mist">{project.category}</p>
         </div>
 
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-30">
-          <div className="w-24 h-24 rounded-full bg-mist text-obsidian flex items-center justify-center text-xs uppercase tracking-widest font-bold backdrop-blur-sm bg-opacity-90">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-30">
+          <div className="w-16 h-16 md:w-24 md:h-24 rounded-full bg-mist text-obsidian flex items-center justify-center text-xs uppercase tracking-widest font-bold backdrop-blur-sm bg-opacity-90">
             View
           </div>
         </div>
