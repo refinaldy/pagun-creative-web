@@ -13,13 +13,13 @@ export default function Footer() {
             </a>
          </div>
          
-         <div className="mt-10 md:mt-0 flex gap-20">
+         <div className="mt-10 md:mt-0 flex gap-20 relative z-30">
             <div>
               <span className="uppercase tracking-widest text-sm opacity-60 block mb-4">Socials</span>
               <ul className="flex flex-col gap-2 text-lg">
-                 <li><a href="https://www.instagram.com/paguncreative/" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block">Instagram</a></li>
-                 <li><a href="https://wa.me/6281349505575" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block">WhatsApp</a></li>
-                 <li><a href="https://www.youtube.com/@paguncreative" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block">YouTube</a></li>
+                 <li><a href="https://www.instagram.com/paguncreative/" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block cursor-pointer">Instagram</a></li>
+                 <li><a href="https://wa.me/6281349505575" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block cursor-pointer">WhatsApp</a></li>
+                 <li><a href="https://www.youtube.com/@paguncreative" target="_blank" className="hover:opacity-50 transition-opacity duration-300 block cursor-pointer">YouTube</a></li>
               </ul>
             </div>
             <div>
@@ -42,7 +42,7 @@ export default function Footer() {
            initial={{ y: 100, opacity: 0 }}
            whileInView={{ y: 0, opacity: 1 }}
            transition={{ duration: 1 }}
-           className="text-[14vw] md:text-[18vw] leading-[0.8] font-serif tracking-tighter text-center select-none"
+           className="text-[12vw] md:text-[15.5vw] leading-none font-serif tracking-tighter text-center select-none whitespace-nowrap"
          >
            PAGUNCREATIVE
          </motion.h2>
