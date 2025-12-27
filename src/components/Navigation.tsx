@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const links = [
-  { title: "Work", href: "#work" }, // Using anchors for now as we are single page initially
-  { title: "Services", href: "#services" },
-  { title: "Studio", href: "#studio" },
-  { title: "Contact", href: "#contact" },
+  { title: "Work", href: "/#work" },
+  { title: "Services", href: "/#services" },
+  { title: "Studio", href: "/#studio" },
+  { title: "Contact", href: "/#contact" },
 ];
 
 export default function Navigation({ onClose }: { onClose: () => void }) {

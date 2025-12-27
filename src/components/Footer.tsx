@@ -42,7 +42,7 @@ export default function Footer() {
            initial={{ y: 100, opacity: 0 }}
            whileInView={{ y: 0, opacity: 1 }}
            transition={{ duration: 1 }}
-           className="text-[12vw] md:text-[15.5vw] leading-none font-serif tracking-tighter text-center select-none whitespace-nowrap"
+           className="text-[10vw] md:text-[13vw] leading-none font-serif tracking-tighter text-center select-none whitespace-nowrap"
          >
            PAGUNCREATIVE
          </motion.h2>

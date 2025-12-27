@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Navigation from "./Navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,24 +12,18 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-[100] mix-blend-difference text-mist">
-        <div className="flex items-center gap-3 z-[101]">
-          {/* Logo Icon */}
-          <div className="relative w-10 h-10 md:w-12 md:h-12">
+        <Link href="/" className="flex items-center gap-2 z-[101]">
+          {/* Logo */}
+          <div className="relative w-32 h-12 md:w-40 md:h-16">
              <Image 
-               src="/pagun_creative_400.webp" 
-               alt="Pagun Logo" 
+               src="/pagun_logo_transparent.png" 
+               alt="Pagun Creative Logo" 
                fill
-               className="object-contain"
+               className="object-contain object-left"
                priority
              />
           </div>
-          
-          {/* Text Brand - Stacked */}
-          <div className="flex flex-col justify-center">
-            <span className="text-base md:text-lg font-bold tracking-tighter font-serif leading-[0.8]">PAGUN</span>
-            <span className="text-base md:text-lg font-bold tracking-tighter font-serif leading-[0.8]">CREATIVE</span>
-          </div>
-        </div>
+        </Link>
         
         <button 
           onClick={() => setIsOpen(!isOpen)}
