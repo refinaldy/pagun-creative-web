@@ -1,6 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pagun Creative - High-End Agency Portfolio
 
-## Getting Started
+![Pagun Creative Banner](public/pagun_creative_team.jpg)
+
+The official digital experience for **Pagun Creative**, a full-service social media and creative agency based in Tarakan, North Kalimantan.
+
+This project is a high-performance, immersive website built with modern web technologies, featuring "Kinetic Brutalism" aesthetics, smooth page transitions, and micro-interactions.
+
+## 🚀 Tech Stack
+
+-   **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
+-   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Animation:** [Framer Motion](https://www.framer.com/motion/)
+-   **Smooth Scroll:** [Lenis](https://lenis.studio/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+-   **Language:** TypeScript
+
+## ✨ Key Features
+
+-   **Kinetic UI/UX:** Magnetic custom cursor, hover distortion, and fluid layout transitions.
+-   **Page Transitions:** "Curtain Wipe" effect between route changes for a seamless app-like feel.
+-   **Visual Storytelling:** Parallax scroll effects, infinite marquees, and text reveals.
+-   **Interactive Components:** Floating Action Button (FAB) for WhatsApp and a dynamic Bento Grid for services.
+-   **SEO Optimized:** Dynamic Open Graph image generation and comprehensive metadata.
+-   **Performance:** Optimized images, lazy loading, and code splitting.
+
+## 🛠️ Getting Started
 
 First, run the development server:
 
@@ -10,27 +34,25 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is optimized for deployment on **Vercel**.
 
-## Learn More
+1.  Push this repository to GitHub.
+2.  Import the project in Vercel.
+3.  Vercel will automatically detect the Next.js configuration.
+4.  Deploy!
 
-To learn more about Next.js, take a look at the following resources:
+## 📍 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Pagun Creative**  
+Tarakan City, North Kalimantan, Indonesia  
+Email: paguncreativeagency@outlook.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Pagun Creative. All rights reserved.
