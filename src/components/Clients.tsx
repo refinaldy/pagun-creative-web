@@ -28,9 +28,9 @@ export default function Clients() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: i * 0.1 }}
-            className="h-32 md:h-48 border border-mist/10 flex items-center justify-center p-8 group hover:bg-mist/5 transition-colors"
+            className="h-32 md:h-48 border border-mist/5 flex items-center justify-center p-8 group hover:bg-mist/5 transition-colors"
           >
-            <div className="relative w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500">
+            <div className="relative w-full h-full grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500">
                <Image
                  src={client.logo}
                  alt={client.name}

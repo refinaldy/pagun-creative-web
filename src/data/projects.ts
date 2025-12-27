@@ -7,6 +7,7 @@ export const projects = [
     client: "Various Clients",
     description: "Strategic feed management that turns followers into customers. We handle everything from visual planning to copywriting, ensuring your brand speaks the right language.",
     src: "https://files.cdn-files-a.com/uploads/9771213/2000_6708c39aae5cd.png",
+    promoBanner: "https://files.cdn-files-a.com/uploads/9771213/2000_6708ced38ac06.png", // MIX CONTENT Banner
     gallery: [
       "https://files.cdn-files-a.com/uploads/9771213/2000_6708c39aae5cd.png",
       "https://files.cdn-files-a.com/uploads/9771213/2000_6708c39ae91f1.png",
@@ -22,9 +23,10 @@ export const projects = [
     client: "Multiple Brands",
     description: "Creating the face of your business. Our logo and branding packages are designed to be timeless, versatile, and instantly recognizable across all mediums.",
     src: "https://files.cdn-files-a.com/uploads/9771213/2000_6706707b39e1c.png",
+    promoBanner: "https://files.cdn-files-a.com/uploads/9771213/2000_6708cf670ceed.png", // VISUAL BRANDING Banner
     gallery: [
       "https://files.cdn-files-a.com/uploads/9771213/2000_6706707b39e1c.png",
-      "https://files.cdn-files-a.com/uploads/9771213/2000_6706708a523be.png",
+      "https://files.cdn-files-a.com/uploads/9771213/2000_6706709230b46.png", // Replaced broken link
       "https://files.cdn-files-a.com/uploads/9771213/2000_6706709230b46.png",
       "https://files.cdn-files-a.com/uploads/9771213/2000_670670841702b.png"
     ]
@@ -37,6 +39,7 @@ export const projects = [
     client: "F&B / Fashion",
     description: "High-end photography that captures the essence of your product. From mouth-watering food shots to cinematic lifestyle imagery, we make your product look expensive.",
     src: "https://files.cdn-files-a.com/uploads/9771213/2000_6708c9d72c7ea.jpg",
+    promoBanner: "https://files.cdn-files-a.com/uploads/9771213/2000_6708cf0021447.png", // PHOTO PRODUCT Banner
     gallery: [
       "https://files.cdn-files-a.com/uploads/9771213/2000_6708c9d72c7ea.jpg",
       "https://files.cdn-files-a.com/uploads/9771213/2000_6708c9d745ade.jpg",
@@ -52,6 +55,7 @@ export const projects = [
     client: "Viral Campaigns",
     description: "Capturing attention in under 3 seconds. Our short-form video production focuses on high-energy, trend-aware editing that drives engagement and shares.",
     src: "https://files.cdn-files-a.com/uploads/9771213/2000_6707d150b03a8.png",
+    promoBanner: "https://files.cdn-files-a.com/uploads/9771213/2000_6708cf2fa243e.png", // SHORT REELS Banner
     gallery: [],
     videos: [
       "https://www.youtube.com/embed/xdpXYv5h9J4",
@@ -68,6 +72,7 @@ export const projects = [
     client: "Corporate / Events",
     description: "Cinematic storytelling for bigger screens. We handle pre-production, filming, and post-production for company profiles, events, and YouTube content.",
     src: "https://files.cdn-files-a.com/uploads/9771213/2000_6708bd1b42b84.png",
+    promoBanner: "https://files.cdn-files-a.com/uploads/9771213/2000_670dbae88e2ff.png", // EVENT & GATHERING Banner
     gallery: [],
     videos: [
       "https://www.youtube.com/embed/sgoaFa2a5cU",

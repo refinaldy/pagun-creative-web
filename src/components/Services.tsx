@@ -10,35 +10,35 @@ const services = [
     title: "Monthly Package", 
     description: "Complete Social Media Management & Content Strategy", 
     span: "col-span-1 md:col-span-2 row-span-2",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop"
+    image: "https://files.cdn-files-a.com/uploads/9771213/2000_6706708a523be.png" // Actual SM management result
   },
   { 
     id: "02",
     title: "Commercial Photoshoot", 
     description: "Product, Fashion, and Lifestyle Documentation", 
     span: "col-span-1 md:col-span-2 row-span-1",
-    image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop"
+    image: "https://files.cdn-files-a.com/uploads/9771213/2000_6708c9d72c7ea.jpg" // High quality food shot
   },
   { 
     id: "03",
     title: "Video Content", 
     description: "High-Engagement Short Reels & TikTok Production", 
     span: "col-span-1 row-span-1",
-    image: "https://images.unsplash.com/photo-1536240478700-b86d35fd733c?q=80&w=800&auto=format&fit=crop"
+    image: "https://files.cdn-files-a.com/uploads/9771213/2000_6707d16d0a06f.png" // Reel frame
   },
   { 
     id: "04",
     title: "Logo & Visual Branding", 
     description: "Identity Design & Brand Guidelines", 
     span: "col-span-1 row-span-1",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=800&auto=format&fit=crop"
+    image: "https://files.cdn-files-a.com/uploads/9771213/2000_6706707b39e1c.png" // Visual branding sample
   },
   { 
     id: "05",
     title: "Media Production", 
     description: "Full Scale Film, YouTube, and Digital Campaigns", 
     span: "col-span-1 md:col-span-4 row-span-1",
-    image: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1200&auto=format&fit=crop"
+    image: "https://files.cdn-files-a.com/uploads/9771213/2000_6708bd1b42b84.png" // Video production sample
   },
 ];
 
