@@ -13,7 +13,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-[100] mix-blend-difference text-mist">
         <div className="flex items-center gap-3 z-[101]">
           {/* Logo Icon */}
-          <div className="relative w-8 h-8 md:w-10 md:h-10">
+          <div className="relative w-10 h-10 md:w-12 md:h-12">
              <Image 
                src="/pagun_creative_400.webp" 
                alt="Pagun Logo" 
@@ -23,9 +23,10 @@ export default function Header() {
              />
           </div>
           
-          {/* Text Brand */}
-          <div className="text-lg md:text-xl font-bold tracking-tighter font-serif">
-            PAGUN CREATIVE
+          {/* Text Brand - Stacked */}
+          <div className="flex flex-col justify-center">
+            <span className="text-base md:text-lg font-bold tracking-tighter font-serif leading-[0.8]">PAGUN</span>
+            <span className="text-base md:text-lg font-bold tracking-tighter font-serif leading-[0.8]">CREATIVE</span>
           </div>
         </div>
         
