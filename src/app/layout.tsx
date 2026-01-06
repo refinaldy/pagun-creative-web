@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
@@ -58,6 +59,7 @@ export default function RootLayout({
           <div className="noise-overlay" />
           {children}
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
